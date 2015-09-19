@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory name="Project2">
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.password">f5a1139c</property>
+        <property name="hibernate.connection.url">jdbc:mysql://us-cdbr-azure-central-a.cloudapp.net/&lt;database&gt;</property>
+        <property name="hibernate.connection.username">bf580aaf83c045</property>
+        <property name="hibernate.default_catalog">WebServices_ProjectTwo</property>
+        <property name="hibernate.default_schema">WebServices_ProjectTwo</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    </session-factory>
+</hibernate-configuration>
